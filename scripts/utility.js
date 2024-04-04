@@ -12,6 +12,10 @@ function setBackgroundColorById(elementId){
     const element = document.getElementById(elementId);
     element.classList.add('bg-amber-400');
 }
+function removeBackgroundColorById(elementId){
+    const element = document.getElementById(elementId);
+    element.classList.remove('bg-amber-400');
+}
 
 function getARandomAlphabet(){
     // get or create an alphabet array
